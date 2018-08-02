@@ -3,7 +3,7 @@
 // Do not call everything el, element, value, acc, func, helper or other generic shit
 // Meaningful names are important to better understand the context without the need of skimming outer functions
 // consider replacing 'acc' with 'totalHeight' and 'el' with 'person' in the following Example:
-const stackHeight = [{ height: 1.7, hairColor: 'brown' }, { height: 1.9, hairColor: 'brown'}]
+const totalHeight = [{ height: 1.7, hairColor: 'brown' }, { height: 1.9, hairColor: 'brown'}]
   .reduce((acc, el) => {
     acc += el.height;
     return acc;

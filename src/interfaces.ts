@@ -9,7 +9,7 @@ interface serializable { // description of a feature
   toJson: Function;
 }
 
-class Sportscar implements Car, serializable {
+class SportsCar implements Car, serializable {
   toJson() {}
   startEngine() {}
 }

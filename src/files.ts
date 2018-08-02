@@ -1,4 +1,4 @@
 /** files */
 
-// Files should be named according to their exported content in camelCase or PascalCase
+// Files should be named according to their exported content
 // Directories should be named kebab-case

@@ -22,3 +22,17 @@ interface Person {
   setHomePlanet: (planet: string) => void; // changing an object's state
   isTallerThan: (person: Person) => boolean; // executing a task and returning the result
 }
+
+// todo:
+class Tank {
+  get fillLevel() {
+    return 'high af'
+  }
+
+  set fillLevel(fillLevel: string) {
+
+  }
+}
+
+new Tank().fillLevel = 'low';
+

@@ -10,9 +10,6 @@ class ButtonRenderer extends AbstractRenderer {} // Include a context of the bas
 class Bottle {} // Use short but meaningful superclass names. They will be used a lot in the code
 class WaterBottle extends Bottle {} // Include what class a subclass is like and how it is different
 
-class Shape {}
-class CircleShape extends Shape {} // TODO: should we drop information about superclass when using common subclass names?
-
 class ExcelWriter {}
 class ExcelReader {} // Use complementary names for complementary classes
 class ExcelParser {} // ExcelParser would be a bad complementary class name to ExcelWriter
